@@ -1,0 +1,44 @@
+﻿@model IEnumerable<todo_apllication.Models.ToDoList>
+@*@model IEnumerable<todo_domain_entities.POCO.ToDoList>*@
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<h4 style="color:blue">My Lists</h4>
+<br />
+<p>
+    <a asp-action="Create">Add New List</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                List Title
+            </th>
+            <th>
+                Tasks
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="MyTask" asp-action="Index" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Title)</a>
+                </td>
+                <td>
+                    <a asp-controller="MyTask" asp-action="Index" asp-route-id="@item.Id">MyTasks (@Html.DisplayFor(modelItem => item.TaskCount))</a>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

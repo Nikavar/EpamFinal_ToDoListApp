@@ -1,0 +1,67 @@
+﻿@model IEnumerable<todo_domain_entities.POCO.MyTask>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<br/>
+<h4 style="color:blue">Completed Tasks</h4>
+
+<br/>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.List)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DueDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskPriority)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.List.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DueDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskStatus.TaskStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskPriority.TaskPriority)
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

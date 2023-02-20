@@ -1,0 +1,83 @@
+﻿@model IEnumerable<todo_domain_entities.POCO.MyTask>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<br/>
+<h4 style="color: blue">Current Tasks</h4>
+
+<br/>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.List)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DueDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskPriority)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.List.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DueDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskStatus.TaskStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskPriority.TaskPriority)
+            </td>
+
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+            <td width="200px">
+                <button id="@item.Id" class="btn btn-primary"
+                        onclick="location.href='@Url.Action("Complete", "MyTask", new { id =  @item.Id})'">
+                    Complete
+                </button>
+                <button id="@item.Id" class="btn btn-primary"
+                        onclick="location.href='@Url.Action("Reject", "MyTask", new { id =  @item.Id})'">
+                    Reject
+                </button>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

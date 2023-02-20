@@ -1,0 +1,91 @@
+﻿@using todo_apllication.Models;
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - todo_apllication</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+
+    <div class="bg-dark text-white p-2 col-12" , style="height:70px">
+        <div style="display:inline; float:left">
+            <a class="navbar-brand" asp-area="" asp-controller="ToDo" asp-action="Index" style="color:dodgerblue; padding-left:13px">ToDo_App</a>
+        </div>
+        <div style="display:inline; float:right; margin-top:10px">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Logout">Log Out @*@UserManager.GetUserName(User)*@</a>
+            }
+
+            else
+            {
+                <a class="nav-link text-white col-2" style="display:inline" asp-area="" asp-controller="User" asp-action="AddOrEdit">Sign In</a>
+            }
+        </div>
+    </div>
+    <div class="row m-1 p-1">
+        <div class="col-2">
+            <div id="myTabs" class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="ToDo" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="MyTask" asp-action="CurrentTasks">InProgress</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="MyTask" asp-action="RejectedTasks">Rejected</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="MyTask" asp-action="CompletedTasks">Completed</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="ToDo" asp-action="About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="ToDo" asp-action="Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="container">
+                <main role="main">
+                    @if (TempData["Success"] != null)
+                    {
+                        <div class="alert alert-success">
+                            @TempData["Success"]
+                        </div>
+                    }
+                    @if (TempData["Error"] != null)
+                    {
+                        <div class="alert alert-danger">
+                            @TempData["Error"]
+                        </div>
+                    }
+                </main>
+            </div>
+            @RenderBody()
+        </div>
+    </div>
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - N.Varamashvili_Asp.Net Core
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<todo_domain_entities.POCO.MyTask>
+
+
+@{ 
+    var id = @ViewBag.testId;
+}
+
+ 
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+
+@{ 
+    var listTitle =  (from i in Model
+               where i.ListId == id
+               select i.List.Title).ToList();
+}
+
+@if (listTitle.Count > 0)
+{
+    <h4 style="color: blue">Tasks of List: <a style="color:dimgray">@listTitle[0]</a></h4>
+}
+
+<br/>
+<p>    
+    <a asp-action="Create" asp-route-id="@id">Add New Task</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DueDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskPriority)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DueDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreateTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TaskStatus.TaskStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TaskPriority.TaskPriority)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<tfoot>
+    <tr>
+        <td>
+            <a asp-controller="ToDo" asp-action="Index">Back to List</a>
+        </td>
+    </tr>
+</tfoot>

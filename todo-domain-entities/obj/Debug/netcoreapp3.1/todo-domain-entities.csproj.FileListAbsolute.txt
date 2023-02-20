@@ -1,0 +1,56 @@
+C:\Users\Nikoloz\source\repos\todo-apllication\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.deps.json
+C:\Users\Nikoloz\source\repos\todo-apllication\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.dll
+C:\Users\Nikoloz\source\repos\todo-apllication\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.pdb
+C:\Users\Nikoloz\source\repos\todo-apllication\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.csproj.AssemblyReference.cache
+C:\Users\Nikoloz\source\repos\todo-apllication\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikoloz\source\repos\todo-apllication\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.AssemblyInfoInputs.cache
+C:\Users\Nikoloz\source\repos\todo-apllication\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.AssemblyInfo.cs
+C:\Users\Nikoloz\source\repos\todo-apllication\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.csproj.CoreCompileInputs.cache
+C:\Users\Nikoloz\source\repos\todo-apllication\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.dll
+C:\Users\Nikoloz\source\repos\todo-apllication\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.pdb
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject - Copy\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.deps.json
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject - Copy\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.dll
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject - Copy\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.pdb
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject - Copy\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.csproj.AssemblyReference.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject - Copy\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject - Copy\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.AssemblyInfoInputs.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject - Copy\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.AssemblyInfo.cs
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject - Copy\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.csproj.CoreCompileInputs.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject - Copy\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.dll
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject - Copy\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.pdb
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\3. todo-apllication_FinalProject - v3\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.deps.json
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\3. todo-apllication_FinalProject - v3\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.dll
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\3. todo-apllication_FinalProject - v3\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.pdb
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\3. todo-apllication_FinalProject - v3\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.csproj.AssemblyReference.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\3. todo-apllication_FinalProject - v3\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\3. todo-apllication_FinalProject - v3\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.AssemblyInfoInputs.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\3. todo-apllication_FinalProject - v3\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.AssemblyInfo.cs
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\3. todo-apllication_FinalProject - v3\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.csproj.CoreCompileInputs.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\3. todo-apllication_FinalProject - v3\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.dll
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\3. todo-apllication_FinalProject - v3\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.pdb
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.deps.json
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.runtimeconfig.json
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.runtimeconfig.dev.json
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.dll
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.pdb
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.AssemblyInfoInputs.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.AssemblyInfo.cs
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.csproj.CoreCompileInputs.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.dll
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.pdb
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.genruntimeconfig.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\4. todo-apllication_FinalProject V4.0+ library\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.csproj.AssemblyReference.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.deps.json
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.runtimeconfig.json
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.runtimeconfig.dev.json
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.dll
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\bin\Debug\netcoreapp3.1\todo-domain-entities.pdb
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.csproj.AssemblyReference.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.AssemblyInfoInputs.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.AssemblyInfo.cs
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.csproj.CoreCompileInputs.cache
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.dll
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.pdb
+C:\Users\Nikoloz\source\repos\Epam_FinalProject\todo-apllication_FinalProject (library, test)\todo-domain-entities\obj\Debug\netcoreapp3.1\todo-domain-entities.genruntimeconfig.cache
